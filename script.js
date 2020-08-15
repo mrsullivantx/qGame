@@ -27,54 +27,48 @@ function startGame() {
 
 
 let questions = [{
-    question: 'What is the name for the Jewish New Year?',
+    question: 'Which company developed Javascript?',
     answers: [
-        { text: 'Rosh Hashanah', correct: true },
-        { text: 'Yom Kippur', correct: false },
-        { text: 'Hanukkah', correct: false },
-        { text: 'Kwanza', correct: false }
+        { text: 'Netscape', correct: true },
+        { text: 'Google', correct: false },
+        { text: 'Yahoo', correct: false },
+        { text: 'Microsoft', correct: false }
     ],
-    question: 'How many blue stripes are there on the U.S. flag?',
+    question: 'Does JavaScript support automatic type conversion?',
     answers: [
-        { text: '6', correct: false },
-        { text: '7', correct: false },
-        { text: '13', correct: false },
-        { text: '0', correct: true }
+        { text: 'No', correct: false },
+        { text: 'Yes', correct: true }
     ],
-    question: 'Which one of these characters is not friends with Harry Potter?',
+    question: 'What is the use of blur function',
     answers: [
-        { text: 'Ron Weasley', correct: false },
-        { text: 'Neville Longbottom', correct: false },
-        { text: 'Draco Malfoy', correct: true },
-        { text: 'Hermione Granger', correct: false }
+        { text: 'To hide a specified object.', correct: false },
+        { text: 'To set a timer for a object to disappear.', correct: false },
+        { text: 'To remove the focus from the specified object.', correct: true },
+        { text: 'None of the Above.', correct: false }
     ],
-    question: 'Which country held the 2016 Summer Olympics?',
+    question: 'Is Javascript case sensitive?',
     answers: [
-        { text: 'China', correct: false },
-        { text: 'Russia', correct: false },
-        { text: 'Brazil', correct: true },
-        { text: 'Italy', correct: false }
+        { text: 'Yes', correct: true },
+        { text: 'No', correct: false }
     ],
-    question: 'Which planet is the hottest?',
+    question: 'In Javascript can undefined be defined?',
     answers: [
-        { text: 'Venus', correct: false },
-        { text: 'Saturn', correct: false },
-        { text: 'Mercury', correct: true },
-        { text: 'Mars', correct: false }
+        { text: 'Yes', correct: true },
+        { text: 'No', correct: false }
     ],
-    question: 'In which city can you find the Liberty Bell?',
+    question: 'Which of the following best describes JavaScript?',
     answers: [
-        { text: 'Houston', correct: false },
-        { text: 'Boston', correct: false },
-        { text: 'Philadelphia', correct: true },
-        { text: 'Manhattan', correct: false }
+        { text: 'A compiled scripting language.', correct: false },
+        { text: 'A low-level programming language.', correct: false },
+        { text: 'An object-oriented scripting language.', correct: true },
+        { text: 'A scripting language precompiled in the browser.', correct: false }
     ],
-    question: 'Linda and Bob from Bob’s Burgers have 3 kids. Which one of these characters is not one of them?',
+    question: 'What is the HTML tag under which one can write the JavaScript code?',
     answers: [
-        { text: 'Louise', correct: false },
-        { text: 'Gene', correct: false },
-        { text: 'Jimmy', correct: true },
-        { text: 'Tina', correct: false }
+        { text: '<js>', correct: false },
+        { text: '<javascript>', correct: false },
+        { text: '<script>', correct: true },
+        { text: '<style>', correct: false }
     ]
 
 }]
